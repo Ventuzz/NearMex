@@ -1,0 +1,66 @@
+/* src/components/SearchBar.css */
+.search-section {
+  display: flex; /* Contenedor flexible para centrar */
+  justify-content: center; /* Centrado horizontal */
+  align-items: center; /* Centrado vertical */
+  margin-top: 100px; /* Espacio desde el Navbar */
+}
+
+.glass-container {
+  background: rgba(255, 255, 255, 0.25); /* Fondo blanco traslúcido */
+  backdrop-filter: blur(15px); /* Efecto de desenfoque del fondo */
+  -webkit-backdrop-filter: blur(15px); /* Soporte para Safari */
+  border: 1px solid rgba(255, 255, 255, 0.3); /* Borde sutil */
+  border-radius: 40px; /* Bordes muy redondeados */
+  padding: 30px; /* Margen interno */
+  width: 90%; /* Ancho responsivo */
+  max-width: 750px; /* Ancho máximo para que no se estire demasiado */
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+.input-group {
+  display: flex; /* Para alinear icono, input y botón de búsqueda */
+  background-color: white; /* Fondo blanco para el input */
+  border-radius: 50px; /* Borde de píldora */
+  padding: 5px 10px 5px 20px; /* Espaciado interno */
+  align-items: center; /* Alineación vertical */
+  margin-bottom: 25px; /* Espacio respecto a las categorías */
+}
+
+.input-group input {
+  border: none; /* Sin borde para el input interno */
+  width: 100%; /* Ocupa el espacio disponible */
+  padding: 12px; /* Espaciado del texto */
+  font-size: 16px; /* Tamaño de letra */
+  outline: none; /* Quita el recuadro azul al escribir */
+}
+
+.search-btn {
+  background-color: #d86d52; /* Color naranja-rojizo */
+  color: white; /* Icono blanco */
+  border: none; /* Sin borde */
+  border-radius: 50%; /* Botón circular */
+  width: 45px; /* Tamaño del botón circular */
+  height: 45px; /* Tamaño del botón circular */
+  cursor: pointer; /* Cursor de click */
+}
+
+.categories {
+  display: flex; /* Alineación de las pastillas de categoría */
+  justify-content: center; /* Centrado */
+  flex-wrap: wrap; /* Para que bajen si no caben en pantalla */
+  gap: 12px; /* Espacio entre categorías */
+}
+
+.category-pill {
+  background-color: #000000; /* Fondo gris muy claro */
+  border: none; /* Sin borde */
+  padding: 8px 18px; /* Tamaño de la pastilla */
+  border-radius: 20px; /* Borde redondeado */
+  cursor: pointer; /* Cursor de click */
+  font-weight: 500; /* Grosor de la fuente */
+  display: flex; /* Para alinear icono y texto */
+  align-items: center; /* Alineación vertical */
+  gap: 8px; /* Espacio entre icono y texto */
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05); /* Sombra muy sutil */
+}
