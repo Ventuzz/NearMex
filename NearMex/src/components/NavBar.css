@@ -1,52 +1,59 @@
-/* src/components/Navbar.css */
 .navbar {
-  display: flex; /* Alineación horizontal de los elementos */
-  justify-content: space-between; /* Espacio entre logo, links y botones */
-  align-items: center; /* Centrado vertical */
-  padding: 15px 50px; /* Margen interno para que no pegue a las orillas */
-  background-color: transparent; /* Se mantiene transparente sobre el fondo del Hero */
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Tipografía limpia */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 50px;
+  position: sticky; /* sticky arriba */
+  top: 0;
+  z-index: 1000;
+  background-color: rgba(255, 255, 255, 0.9);
+  backdrop-filter: blur(10px);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .logo {
-  font-size: 24px; /* Tamaño del nombre NearMex */
-  font-weight: bold; /* Resaltado del logo */
-  display: flex; /* Para alinear el icono con el texto */
-  align-items: center; /* Alineación del icono y el texto */
-  gap: 8px; /* Espacio entre el pin de mapa y el texto */
-  color: #333; /* Color oscuro para el texto */
+  font-size: 24px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: #333;
 }
 
 .nav-links {
-  display: flex; /* Alineación de los items de menú */
-  list-style: none; /* Quita los puntos de la lista */
-  gap: 30px; /* Espacio entre cada link */
+  display: flex;
+  list-style: none;
+  gap: 30px;
 }
 
 .nav-links li {
-  cursor: pointer; /* Cambia el cursor al pasar sobre ellos */
-  font-weight: 500; /* Grosor medio de la fuente */
-  color: #444; /* Color de los links */
+  cursor: pointer;
+  font-weight: 500;
+  color: #444;
 }
 
 .auth-buttons {
-  display: flex; /* Alinea botones e icono de usuario */
-  align-items: center; /* Alineación vertical */
-  gap: 15px; /* Espacio entre botones */
+  display: flex;
+  align-items: center;
+  gap: 15px;
 }
 
 .btn-login {
-  background: none; /* Sin fondo */
-  border: none; /* Sin borde */
-  cursor: pointer; /* Cursor de click */
-  font-weight: 500; /* Grosor de la fuente */
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-weight: 500;
 }
 
 .btn-register {
-  background-color: #d86d52; /* Color naranja-rojizo de tu diseño */
-  color: white; /* Texto blanco */
-  padding: 10px 25px; /* Tamaño del botón */
-  border-radius: 25px; /* Bordes redondeados */
-  border: none; /* Sin borde */
-  cursor: pointer; /* Cursor de click */
+  background-color: #d86d52;
+  color: white;
+  padding: 10px 25px;
+  border-radius: 25px;
+  border: none;
+  cursor: pointer;
+}
+
+.user-icon {
+  font-size: 1.3em;
 }

@@ -1,32 +1,29 @@
-/* src/components/Hero.css */
 .hero-container {
-  height: 100vh; 
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
   background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url('fondo.jpg');
   background-size: cover;
   background-position: center;
-  padding: 20px;
+  padding: 0 20px;
+}
+
+.hero-content {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .glass-container {
-  background: rgba(255, 255, 255, 0.4); /* Transparencia blanca */
-  backdrop-filter: blur(12px);         /* El efecto de desenfoque */
+  background: rgba(255, 255, 255, 0.25);
+  backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(15px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
   border-radius: 40px;
-  padding: 40px;
-  width: 100%;
-  max-width: 800px;
-  margin: 0 auto;
+  padding: 30px;
+  width: 90%;
+  max-width: 750px;
   box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
-}
-
-.category-pill {
-  background: rgb(0, 0, 0);
-  border: none;
-  border-radius: 20px;
-  padding: 8px 15px;
-  margin: 5px;
-  cursor: pointer;
-  font-weight: 500;
-  display: inline-flex;
-  align-items: center;
-  gap: 8px;
 }
