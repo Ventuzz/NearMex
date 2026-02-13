@@ -13,8 +13,8 @@ function LugarDetalle() {
     return (
         <>
             <Navbar />
-            <div>
-                <div>
+            <div className = "container">
+                <div className = "detalle-container">
                     <img src = {lugar.img} alt = {lugar.nombre} style = {{ width: "400px" }}/>
                     <iframe className = "mapa"
                         width = "600"
