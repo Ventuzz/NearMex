@@ -1,12 +1,18 @@
+import { Routes, Route } from 'react-router-dom';
+import LugarDetalle from './pages/LugarDetalle';
 import Hero from './components/Hero';
 import Footer from './components/Footer';
 
 function App() {
   return (
-    <div className="App">
-      <Hero />
-      <Footer />
-    </div>
+    <>
+    <Routes>
+      <Route path = "/" element = {<Hero />} />
+      <Route path = "/lugares/:id" element = {<LugarDetalle />} />
+    </Routes>
+
+    <Footer />
+    </>
   );
 }
 
