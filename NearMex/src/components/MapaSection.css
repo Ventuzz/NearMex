@@ -1,5 +1,6 @@
 .map-section {
-  margin: 50px 0;
+  margin: 100px 50px; /* 100px arriba, 50px abajo */
   border-radius: 20px;
   overflow: hidden;
+
 }

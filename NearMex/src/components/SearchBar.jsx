@@ -36,9 +36,9 @@ const lugares = [
     lng: -103.3472,
   },
   {
-    nombre: "Centro Comercial Andares",
+    nombre: "Centro Comercial Plaza Patria",
     tipo: "Centro Comercial",
-    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBVz8XbNocsnDSfYU307__Qgd-WZyQu8t1vQ&s",
+    img: "https://www.informador.mx/export/sites/elinformador/img/2023/06/14/31-img_1863.jpg_466555353.jpg",
     lat: 20.7118,
     lng: -103.3750,
   },

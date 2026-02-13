@@ -2,18 +2,19 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 15px 50px;
-  position: sticky; /* sticky arriba */
+  padding: 20px 80px;
+  position: sticky;
   top: 0;
   z-index: 1000;
-  background-color: rgba(255, 255, 255, 0.9);
-  backdrop-filter: blur(10px);
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(15px);
+  font-family: 'Poppins', sans-serif;
 }
 
+
 .logo {
-  font-size: 24px;
-  font-weight: bold;
+  font-size: 28px;/*25*/
+  font-weight: 700;/*blod*/
   display: flex;
   align-items: center;
   gap: 8px;
@@ -30,6 +31,7 @@
   cursor: pointer;
   font-weight: 500;
   color: #444;
+  font-size: 20px;/*tamaño de la barra de navegacion*/
 }
 
 .auth-buttons {
@@ -44,16 +46,31 @@
   cursor: pointer;
   font-weight: 500;
 }
-
+/*  */
 .btn-register {
-  background-color: #d86d52;
+  background: linear-gradient(135deg, #d86d52, #ff9a76);
   color: white;
-  padding: 10px 25px;
-  border-radius: 25px;
+  padding: 12px 28px;
+  border-radius: 30px;
   border: none;
   cursor: pointer;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(216, 109, 82, 0.3);
 }
+
+.btn-register:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 20px rgba(216, 109, 82, 0.5);
+}
+/*  */
 
 .user-icon {
   font-size: 1.3em;
+}
+
+.logo-img {/*imagen*/
+  width: 180px;
+  height: 65px;
+  object-fit: contain;
 }
