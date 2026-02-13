@@ -1,0 +1,28 @@
+.detalle-container {
+    max-width: 900px;
+    margin: auto;
+    padding: 20px;
+    color: #222;
+}
+
+.detalle-container img {
+    width: 100%;
+    border-radius: 12px;
+    margin: 20px 0;   
+}
+
+.detalle-container h1 {
+    font-size: 2.2rem;
+    margin-bottom: 10px;
+}
+
+.detalle-container p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+.mapa {
+    margin-top: 25px;
+    border-radius: 12px;
+    overflow: hidden;
+}

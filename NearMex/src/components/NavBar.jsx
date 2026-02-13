@@ -1,11 +1,12 @@
 import React from "react";
 import './NavBar.css';
+import ubicationIcon from '../assets/ubicationIcon.jpeg';
 
 const Navbar = () => {
   return (
     <nav className="navbar">
       <div className="logo">
-        <span className="icon">📍</span> NearMex
+        <img src = {ubicationIcon} className="icon" /> NearMex 
       </div>
       <ul className="nav-links">
         <li>Inicio</li>
@@ -22,3 +23,4 @@ const Navbar = () => {
 };
 
 export default Navbar;
+

@@ -43,6 +43,7 @@
   border: none;
   cursor: pointer;
   font-weight: 500;
+  color: #444;
 }
 
 .btn-register {
@@ -57,3 +58,16 @@
 .user-icon {
   font-size: 1.3em;
 }
+
+.icon {
+  width: 100px;
+  margin-right: 8px;
+  animation: float 2s ease-in-out infinite;
+}
+
+@keyframes float {
+  0% { transform: translateY(0); }
+  50% { transform: translateY(-6px); }
+  100% { transform: translateY(0); }
+}
+
